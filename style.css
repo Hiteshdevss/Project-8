@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {}
+
+nav .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+nav .header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav .header ul li {
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 16px;
+}
